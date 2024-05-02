@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Meal App</title>
+    <link rel="stylesheet" href="style/index.css" type="text/css">
+</head>
+
+<body class="theme">
+    <section id="navbar">
+        <div class="wrapper">
+            <div class="logo"><i class="fa-solid fa-bowl-food"></i><span>Foodie</span></div>
+            <div id="openPopupBtn" class="nav"><i class="fa-solid fa-heart active"></i></div>
+        </div>
+    </section>
+    <section id="search">
+        <div class="search-container">
+            <div class="input-search-container">
+                <input type="text" class="uInput" placeholder="Search Food ...." id="meal-search" onkeyup="findMeals()"
+                    onClick="findMeals()">
+                <div class="output-search-container ">
+                    <div class="search-item-info displayHidden" id="search-item-info">
+                        <div class="search-list-item">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="output-container" id="output-container">
+        </div>
+        <div id="popup" class="popup displayHidden">
+            <div class="popup-content" >
+                <div class="popup-header">
+                    <h1 class="favList-header">Fav meals list</h1>
+                    <span class="close-btn">&times;</span>
+                </div>
+                <div id="fav-meals-list" class="cardContainer">
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/ea918df407.js" crossorigin="anonymous"></script>
+    <script src="src/index.js"></script>
+</body>
+
+</html>
