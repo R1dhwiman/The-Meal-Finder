@@ -2,6 +2,8 @@
 
 The Meal Finder is a web application that allows you to search for meals and save your favorite meals to a list. It utilizes the Meal Database API to fetch meal data and provides a user-friendly interface to explore different meal options.
 
+Hosted Site :-    https://r1dhwiman.github.io/The-Meal-Finder/
+
 ## Tech Stack
 
 - **HTML**
